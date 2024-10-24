@@ -90,9 +90,12 @@ main {
 }
 /* Hero section */
 #hero {
-    height: 600px;
+    height: 690px;
     width: 100%;
     background: url("../images/Eoin\ Img\ 5.jpg") no-repeat center center/cover;
+     
+     
+     
 }
 /* Footer */
 
@@ -138,7 +141,9 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
+    #hero {
+        height: 935px;
+    }
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -151,4 +156,9 @@ main {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+    #hero {
+        background: url("../images/Eoin\ Img\ 5.jpg") no-repeat center center/cover;
+        height: 940px;
+    }
 }
+
