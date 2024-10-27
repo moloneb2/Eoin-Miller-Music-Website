@@ -1,4 +1,5 @@
 /* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -30,6 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-left: 2rem;
 }
 header a {
     text-decoration: none;
@@ -37,12 +39,20 @@ header a {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
-
+h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #252525;  
+}
+#path-menu{
+    font-size: 24px;
+}
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -80,6 +90,22 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+#logo {
+    display: inline-block;
+    font-size: 150%;
+    line-height: 75px;
+    margin: 0 0.9rem;
+    margin-right: 0.2rem;
+    margin-left: 0px;
+    }
+#logo1{
+    display: inline-block;
+    font-size: 80%;
+    line-height: 75px;
+    margin: 0vm;
+    margin-left: 0vm;
+    
+}
 
 /* Main content */
 main {
@@ -109,9 +135,10 @@ main {
         padding: 5%;
         color: #3a3a3a;
     }
+    
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+/* Media query: tablets and larger smartphones(768px and up) */
+@media screen and (min-width: 482px) {
     /* Header */
     nav {
         display: block;
@@ -134,9 +161,19 @@ main {
     }
 
     #logo {
+        display: inline-block;
         font-size: 280%;
         line-height: 75px;
-        margin: 0 0.5rem;
+        margin: 0 0.9rem;
+        margin-right: 0.5rem;
+    }
+    #logo1{
+        display: inline-block;
+        font-size: 100%;
+        line-height: 75px;
+        margin: 0vm;
+        margin-left: 0vm;
+        
     }
 
     /* Main content */
@@ -146,9 +183,30 @@ main {
     }
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+/* Large devices (laptops and larger tablets, 769px and up) */
+@media screen and (min-width: 769px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+    #logo{
+display: inline-block;
+font-size: 150%;
+    }
+}
+#logo1{
+display: inline-block;
+}
+/* Large devices (larger desktops and monitors, 1280px and up) */
+@media screen and (min-width: 1280px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+    #logo{
+        display: inline-block;
+        font-size: 190%;
+            }
+    header{
+        padding-left: 5rem;
+        padding-top: 1rem;
     }
 }
