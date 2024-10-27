@@ -206,4 +206,10 @@ display: inline-block;
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+    /* Hero section */
+#hero {
+    height: 690px;
+    width: 100%;
+    background: url("../images/Eoin\ Img\ 5.jpg") no-repeat center center/cover;
+}
 }
