@@ -116,9 +116,12 @@ main {
 }
 /* Hero section */
 #hero {
-    height: 600px;
+    height: 690px;
     width: 100%;
-    background: url("../images/Eoin\ Img\ 5.jpg") no-repeat center center/cover;
+    background: url("../images/Eoin\ Img\ 5b.jpg") no-repeat center center/cover;
+     
+     
+     
 }
 /* Footer */
 
@@ -175,7 +178,9 @@ main {
         margin-left: 0vm;
         
     }
-
+    #hero {
+        height: 935px;
+    }
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -200,13 +205,5 @@ display: inline-block;
 @media screen and (min-width: 1280px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
-    }
-    #logo{
-        display: inline-block;
-        font-size: 190%;
-            }
-    header{
-        padding-left: 5rem;
-        padding-top: 1rem;
     }
 }
