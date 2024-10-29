@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-      
+       
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
@@ -142,7 +142,6 @@ main {
         color: #3a3a3a;
     }
     
-
 /* Media query: tablets and larger smartphones(768px and up) */
 @media screen and (min-width: 482px) {
     /* Header */
@@ -167,6 +166,7 @@ main {
     }
 
     #logo {
+         
         display: inline-block;
         font-size: 210%;
         line-height: 75px;
@@ -179,8 +179,9 @@ main {
         line-height: 75px;
         margin: 0vm;
         margin-left: 0vm;
-        
+        text-decoration: underline;
     }
+     
     #hero {
         height: 935px;
     }
