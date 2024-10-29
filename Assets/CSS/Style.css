@@ -141,7 +141,28 @@ main {
         padding: 5%;
         color: #3a3a3a;
     }
-    
+
+    /* Media query: small smartphones */
+@media screen and (max-width: 387px) and (orientation: landscape) {
+    #logo {
+     
+        display: inline-block;
+        font-size: 150%;
+        line-height: 75px;
+        margin: 0 0.9rem;
+        margin-right: 0.2rem;
+        margin-left: 0px;
+        }
+    #logo1{
+         
+        display: inline-block;
+        font-size: 70%;
+        line-height: 75px;
+        margin: 0vm;
+        margin-left: 0vm;
+        
+    }
+}
 /* Media query: tablets and larger smartphones(768px and up) */
 @media screen and (min-width: 482px) {
     /* Header */
